@@ -41,7 +41,7 @@ public class TestEmployeeSystem {
 
         employeeTest = testObjectSystem.getEmployeeList();
 
-
+        int actual = employeeTest.size();
 
 
     }
