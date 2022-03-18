@@ -29,19 +29,8 @@ public class TestEmployee {
         testObject1 = new Employee("Vladmir", "Putin", 66, 1.00);
 
 }
-    @Test
-    public void checkGetUniqueIDTest2() {
-        int actual2 = testObject2.getUniqueID();
 
-        int expected1 = actual2 - 1;
-        int expected3 = actual2 + 1;
 
-        int actual1 = testObject1.getUniqueID();
-        int actual3 = testObject3.getUniqueID();
-
-        Assertions.assertEquals(expected1, actual1);
-        Assertions.assertEquals(expected3, actual3);
-    }
     @Test
     public void checkGetFirstNameTest() {
         String expected = "Dawid";

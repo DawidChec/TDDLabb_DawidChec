@@ -5,5 +5,8 @@ import java.util.ArrayList;
 
     public ArrayList<Employee> getEmployeeList() {
         return employees;
-
+    }
+        public void addEmployee(Employee testObject) {
+            employees.add(testObject);
+    }
 }
