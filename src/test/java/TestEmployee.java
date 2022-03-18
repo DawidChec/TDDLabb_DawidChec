@@ -28,7 +28,7 @@ public class TestEmployee {
         testObject2 = new Employee("Donald", "Trump", 56, 31050.00);
         testObject3 = new Employee("Vladmir", "Putin", 66, 1.00);
 
-}
+    }
 
     @Test
     public void checkGetFirstNameTest() {
@@ -36,7 +36,7 @@ public class TestEmployee {
         String actual = testObject1.getFirstName();
 
         Assertions.assertEquals(expected, actual);
-        }
+    }
 
     @Test
     public void checkSetFirstNameTest() {
@@ -50,5 +50,12 @@ public class TestEmployee {
         String expected = "Bagger";
 
         testObject1.setLastName(expected);
+    }
+
+    @Test
+    public void checkGetLastNameTest() {
+        String expected = "Chec";
+
+        String actual = testObject1.getLastName();
     }
 }
