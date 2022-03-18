@@ -19,3 +19,6 @@ public class Employee {
         public int getUniqueID() {
             return ID;
     }
+    public String getFirstName() {
+        return name;
+    }
