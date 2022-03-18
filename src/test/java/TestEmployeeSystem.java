@@ -57,4 +57,22 @@ public class TestEmployeeSystem {
 
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void checkRemoveEmployeeTest() {
+        int expected = 2;
+        ArrayList<Employee> employeesTest = new ArrayList<Employee>();
+
+        testObjectSystem.addEmployee(testObject1);
+        testObjectSystem.addEmployee(testObject2);
+        testObjectSystem.addEmployee(testObject3);
+
+        testObjectSystem.removeEmployee(testObject1);
+
+        employeesTest = testObjectSystem.getEmployeeList();
+
+        int actual = employeesTest.size();
+
+        Assertions.assertEquals(expected, actual);
+    }
 }
