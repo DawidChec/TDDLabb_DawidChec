@@ -9,4 +9,7 @@ import java.util.ArrayList;
         public void addEmployee(Employee testObject) {
             employees.add(testObject);
     }
+        public void removeEmployee(Employee testObject) {
+            employees.remove(testObject);
+        }
 }

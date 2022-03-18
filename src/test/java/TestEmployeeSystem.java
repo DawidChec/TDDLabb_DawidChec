@@ -1,6 +1,4 @@
-
 import org.junit.jupiter.api.*;
-
 import java.util.ArrayList;
 
 public class TestEmployeeSystem {
@@ -42,6 +40,21 @@ public class TestEmployeeSystem {
         employeeTest = testObjectSystem.getEmployeeList();
 
         int actual = employeeTest.size();
-
-
     }
+
+    @Test
+    public void checkAddEmployeeTest() {
+        int expected = 3;
+        ArrayList<Employee> employeesTest = new ArrayList<Employee>();
+
+        testObjectSystem.addEmployee(testObject1);
+        testObjectSystem.addEmployee(testObject2);
+        testObjectSystem.addEmployee(testObject3);
+
+        employeesTest = testObjectSystem.getEmployeeList();
+
+        int actual = employeesTest.size();
+
+        Assertions.assertEquals(expected, actual);
+    }
+}
