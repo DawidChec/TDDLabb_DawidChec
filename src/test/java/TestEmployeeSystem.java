@@ -35,6 +35,13 @@ public class TestEmployeeSystem {
     }
 
     @Test
+    public void checkGetEmployeeListTest() {
+        int expected = 3;
+        ArrayList<Employee> employeeTest = new ArrayList<Employee>();
+
+        employeeTest = testObjectSystem.getEmployeeList();
 
 
-}
+
+
+    }
