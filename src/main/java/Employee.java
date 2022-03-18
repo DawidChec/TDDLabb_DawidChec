@@ -14,4 +14,8 @@ public class Employee {
         this.lastName = lastName;
         this.age = age;
         this.salary = salary;
-}
+
+    }
+        public int getUniqueID() {
+            return ID;
+    }
