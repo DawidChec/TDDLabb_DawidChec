@@ -26,7 +26,7 @@ public class TestEmployee {
 
         testObject1 = new Employee("Dawid", "Chec", 25, 50.00);
         testObject2 = new Employee("Donald", "Trump", 56, 31050.00);
-        testObject1 = new Employee("Vladmir", "Putin", 66, 1.00);
+        testObject3 = new Employee("Vladmir", "Putin", 66, 1.00);
 
 }
 
