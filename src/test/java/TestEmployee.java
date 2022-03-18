@@ -30,7 +30,6 @@ public class TestEmployee {
 
 }
 
-
     @Test
     public void checkGetFirstNameTest() {
         String expected = "Dawid";
@@ -44,6 +43,5 @@ public class TestEmployee {
         String expected = "Bilbo";
 
         testObject1.setFirstName(expected);
-
     }
 }
