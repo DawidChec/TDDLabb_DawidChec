@@ -44,4 +44,7 @@ public class Employee {
         return salary;
     }
 
+    public void setSalary(double newSalary) {
+        salary = newSalary;
+    }
 }
