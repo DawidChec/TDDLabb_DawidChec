@@ -35,6 +35,7 @@ public class TestEmployeeSystem {
 
         testObject1 = new Employee("Dawid", "Chec", 25, 50.00);
         testObjectSystem = new EmployeeSystem();
+    }
 
 
 
