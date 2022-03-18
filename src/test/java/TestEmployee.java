@@ -42,3 +42,9 @@ public class TestEmployee {
         Assertions.assertEquals(expected1, actual1);
         Assertions.assertEquals(expected3, actual3);
     }
+    @Test
+    public void checkGetFirstNameTest() {
+        String expected = "Dawid";
+        String actual = testObject1.getFirstName();
+
+    }
