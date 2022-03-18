@@ -20,9 +20,12 @@ public class Employee {
     public String getFirstName() {
         return name;
     }
+
     public void setFirstName(String newName) {
         name = newName;
     }
+
     public void setLastName(String newLastName) {
         lastName = newLastName;
+    }
 }
