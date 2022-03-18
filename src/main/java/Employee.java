@@ -16,9 +16,12 @@ public class Employee {
         this.salary = salary;
 
     }
-        public int getUniqueID() {
-            return ID;
+
+    public int getUniqueID() {
+        return ID;
     }
+
     public String getFirstName() {
         return name;
     }
+}
