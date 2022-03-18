@@ -28,4 +28,8 @@ public class Employee {
     public void setLastName(String newLastName) {
         lastName = newLastName;
     }
+
+    public String getLastName() {
+        return lastName;
+    }
 }
