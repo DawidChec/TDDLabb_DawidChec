@@ -23,4 +23,6 @@ public class Employee {
     public void setFirstName(String newName) {
         name = newName;
     }
+    public void setLastName(String newLastName) {
+        lastName = newLastName;
 }

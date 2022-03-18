@@ -46,9 +46,8 @@ public class TestEmployee {
     }
 
     @Test
-    public void checkGetLastNameTest(){
-        String expected = "Bagger";
+    public void checkSetLastNameTest(){
+    String expected = "Bagger";
 
-        String actual = testObject1.getLastName();
-    }
+        testObject1.setLastName(expected);
 }
