@@ -44,4 +44,11 @@ public class TestEmployee {
 
         testObject1.setFirstName(expected);
     }
+
+    @Test
+    public void checkGetLastNameTest(){
+        String expected = "Bagger";
+
+        String actual = testObject1.getLastName();
+    }
 }
