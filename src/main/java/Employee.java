@@ -39,4 +39,9 @@ public class Employee {
     public void setAge(int newAge) {
         age = newAge;
     }
+
+    public double getSalary() {
+        return salary;
+    }
+
 }
